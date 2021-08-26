@@ -146,7 +146,7 @@ alertmanager:
   config:
     global:
       resolve_timeout: 5m
-      slack_api_url: https://hooks.slack.com/services/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
+      slack_api_url: < slack endpoint >
       smtp_from: noreply@grafana.net
       smtp_hello: localhost
       smtp_smarthost: smtprelay:2525
